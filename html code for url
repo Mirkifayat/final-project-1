@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web App Vulnerability Scanner</title>
+</head>
+<body>
+    <h1>Web App Vulnerability Scanner</h1>
+    <form action="/scan" method="post">
+        <label for="target_url">Enter Target URL:</label>
+        <input type="text" id="target_url" name="target_url" required>
+        <button type="submit">Scan</button>
+    </form>
+</body>
+</html>
